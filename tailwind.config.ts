@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -18,6 +19,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				display: ['Dancing Script', 'cursive'],
+				body: ['Poppins', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -52,15 +57,24 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
+				rose: {
+					50: 'hsl(var(--rose-50))',
+					100: 'hsl(var(--rose-100))',
+					200: 'hsl(var(--rose-200))',
+					300: 'hsl(var(--rose-300))',
+					400: 'hsl(var(--rose-400))',
+					500: 'hsl(var(--rose-500))',
+				},
+				peach: {
+					50: 'hsl(var(--peach-50))',
+					100: 'hsl(var(--peach-100))',
+					200: 'hsl(var(--peach-200))',
+					300: 'hsl(var(--peach-300))',
+				},
+				warm: {
+					50: 'hsl(var(--warm-50))',
+					100: 'hsl(var(--warm-100))',
+					200: 'hsl(var(--warm-200))',
 				}
 			},
 			borderRadius: {
@@ -84,11 +98,33 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(20px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'scale-in': {
+					'0%': {
+						transform: 'scale(0.95)',
+						opacity: '0'
+					},
+					'100%': {
+						transform: 'scale(1)',
+						opacity: '1'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.6s ease-out',
+				'scale-in': 'scale-in 0.4s ease-out',
 			}
 		}
 	},
