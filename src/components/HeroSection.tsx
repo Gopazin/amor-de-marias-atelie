@@ -11,7 +11,7 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-4">
-              <div className="inline-flex items-center gap-2 bg-rose-100 text-rose-700 px-4 py-2 rounded-full text-sm font-medium">
+              <div className="inline-flex items-center gap-2 text-rose-700 px-4 py-2 rounded-full text-sm font-medium bg-lime-600">
                 <Heart className="w-4 h-4" />
                 Curso Terapêutico Online
               </div>
@@ -29,12 +29,12 @@ const HeroSection = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="btn-primary group">
+              <Button className="btn-primary group bg-lime-700 hover:bg-lime-600">
                 Quero Fazer Minha Boneca Terapêutica
                 <Heart className="w-5 h-5 ml-2 group-hover:scale-110 transition-transform" />
               </Button>
               
-              <Button variant="outline" className="btn-secondary group">
+              <Button variant="outline" className="btn-secondary group bg-lime-700 hover:bg-lime-600">
                 <PlayCircle className="w-5 h-5 mr-2" />
                 Ver Como Funciona
               </Button>
@@ -59,7 +59,7 @@ const HeroSection = () => {
           <div className="relative animate-scale-in">
             <div className="relative">
               <img src="/lovable-uploads/d077f26e-be8e-43ab-a990-271214ab8049.png" alt="Bonecas terapêuticas coloridas sendo criadas em círculo" className="rounded-3xl shadow-2xl w-full h-auto" />
-              <div className="absolute -top-4 -right-4 bg-primary text-white px-4 py-2 rounded-full font-semibold shadow-lg">
+              <div className="absolute -top-4 -right-4 text-white px-4 py-2 rounded-full font-semibold shadow-lg bg-gray-950">
                 ✨ Vagas Limitadas
               </div>
             </div>

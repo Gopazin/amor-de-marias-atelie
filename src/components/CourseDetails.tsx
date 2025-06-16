@@ -28,11 +28,11 @@ const CourseDetails = () => {
     content: "Toques finais e energização da sua criação"
   }];
   return <section className="bg-white section-padding">
-      <div className="container-custom bg-lime-200">
+      <div className="container-custom bg-slate-50">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-800 mb-4">
             Tudo Que Você Vai{' '}
-            <span className="text-primary">Aprender e Receber</span>
+            <span className="text-yellow-400">Aprender e Receber</span>
           </h2>
           <p className="text-xl text-gray-600">
             Um curso completo que vai além da técnica - é uma jornada de autoconhecimento
@@ -94,7 +94,7 @@ const CourseDetails = () => {
 
             <div className="mt-8 text-center">
               <div className="bg-primary/10 p-6 rounded-xl">
-                <div className="text-3xl font-bold text-primary mb-2">8+ Horas</div>
+                <div className="text-3xl font-bold text-primary mb-2 bg-gray-950">8+ Horas</div>
                 <div className="text-gray-600">de conteúdo exclusivo</div>
               </div>
             </div>

@@ -64,7 +64,7 @@ const BenefitsSection = () => {
               Descubra o poder transformador de criar algo único com suas próprias mãos, 
               enquanto se conecta com sua essência mais profunda.
             </p>
-            <button className="btn-primary">
+            <button className="btn-primary text-lime-600">
               Começar Minha Jornada Agora
               <Heart className="w-5 h-5 ml-2" />
             </button>

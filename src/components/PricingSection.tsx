@@ -1,10 +1,8 @@
 import React from 'react';
 import { Check, Heart, Gift, Star, Clock } from 'lucide-react';
-
 const PricingSection = () => {
-  return (
-    <section className="bg-gradient-to-br from-warm-50 to-peach-50 section-padding">
-      <div className="container-custom">
+  return <section className="bg-gradient-to-br from-warm-50 to-peach-50 section-padding bg-lime-200">
+      <div className="container-custom bg-slate-50">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-800 mb-4">
             Invista em Você e na Sua{' '}
@@ -19,7 +17,7 @@ const PricingSection = () => {
           {/* Curso Principal */}
           <div className="bg-white rounded-3xl shadow-xl p-8 border-2 border-primary relative transform hover:scale-105 transition-all duration-300">
             <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-              <div className="bg-primary text-white px-6 py-2 rounded-full font-semibold text-sm">
+              <div className="text-white px-6 py-2 rounded-full font-semibold text-sm bg-zinc-600">
                 ⭐ Mais Escolhido
               </div>
             </div>
@@ -31,12 +29,12 @@ const PricingSection = () => {
             </div>
 
             <div className="text-center mb-8">
-              <div className="text-5xl font-bold text-primary mb-2">R$ 97</div>
+              <div className="text-5xl font-bold text-primary mb-2 bg-gray-950">R$ 97</div>
               <div className="text-gray-500 line-through text-lg">R$ 197</div>
               <div className="text-moss-green-600 font-semibold">Oferta Limitada!</div>
             </div>
 
-            <ul className="space-y-4 mb-8">
+            <ul className="space-y-4 mb-8 bg-gray-950">
               <li className="flex items-center gap-3">
                 <Check className="w-5 h-5 text-green-500" />
                 <span>Curso online completo (8+ horas)</span>
@@ -57,7 +55,7 @@ const PricingSection = () => {
                 <Check className="w-5 h-5 text-green-500" />
                 <span>Mentoria com Elisandra</span>
               </li>
-              <li className="flex items-center gap-3">
+              <li className="flex items-center gap-3 bg-gray-950">
                 <Check className="w-5 h-5 text-green-500" />
                 <span>Certificado de participação</span>
               </li>
@@ -77,11 +75,11 @@ const PricingSection = () => {
             </div>
 
             <div className="text-center mb-8">
-              <div className="text-4xl font-bold text-rose-500 mb-2">R$ 27</div>
+              <div className="text-4xl font-bold text-rose-500 mb-2 bg-gray-950">R$ 27</div>
               <div className="text-gray-500">Complemento perfeito</div>
             </div>
 
-            <ul className="space-y-4 mb-8">
+            <ul className="space-y-4 mb-8 bg-gray-950">
               <li className="flex items-center gap-3">
                 <Check className="w-5 h-5 text-green-500" />
                 <span>Molde da boneca pequena</span>
@@ -94,7 +92,7 @@ const PricingSection = () => {
                 <Check className="w-5 h-5 text-green-500" />
                 <span>Técnica simplificada</span>
               </li>
-              <li className="flex items-center gap-3">
+              <li className="flex items-center gap-3 bg-gray-950">
                 <Check className="w-5 h-5 text-green-500" />
                 <span>Download imediato</span>
               </li>
@@ -118,7 +116,7 @@ const PricingSection = () => {
               <div className="text-gray-500">Próximas datas</div>
             </div>
 
-            <ul className="space-y-4 mb-8">
+            <ul className="space-y-4 mb-8 bg-gray-950">
               <li className="flex items-center gap-3">
                 <Check className="w-5 h-5 text-green-500" />
                 <span>Encontro presencial</span>
@@ -145,7 +143,7 @@ const PricingSection = () => {
 
         <div className="text-center mt-16">
           <div className="bg-white p-8 rounded-3xl shadow-xl max-w-2xl mx-auto border border-rose-100">
-            <Clock className="w-12 h-12 text-primary mx-auto mb-4" />
+            <Clock className="w-12 h-12 text-primary mx-auto mb-4 bg-gray-800" />
             <h3 className="text-2xl font-display font-bold text-gray-800 mb-4">
               Oferta Por Tempo Limitado!
             </h3>
@@ -159,8 +157,6 @@ const PricingSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default PricingSection;
