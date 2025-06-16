@@ -75,6 +75,15 @@ export default {
 					50: 'hsl(var(--warm-50))',
 					100: 'hsl(var(--warm-100))',
 					200: 'hsl(var(--warm-200))',
+				},
+				'moss-green': {
+					50: 'hsl(var(--moss-green-50))',
+					100: 'hsl(var(--moss-green-100))',
+					200: 'hsl(var(--moss-green-200))',
+					300: 'hsl(var(--moss-green-300))',
+					400: 'hsl(var(--moss-green-400))',
+					500: 'hsl(var(--moss-green-500))',
+					600: 'hsl(var(--moss-green-600))',
 				}
 			},
 			borderRadius: {
