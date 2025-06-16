@@ -1,48 +1,37 @@
-
 import React from 'react';
 import { Heart, Users, Award, Sparkles, Gift, Clock } from 'lucide-react';
-
 const BenefitsSection = () => {
-  const benefits = [
-    {
-      icon: Heart,
-      title: "Reconexão com Sua Criança Interior",
-      description: "Desperte a magia que existe dentro de você através da arte e do criar com as mãos."
-    },
-    {
-      icon: Award,
-      title: "Habilidade Terapêutica e Geradora de Renda",
-      description: "Aprenda uma técnica que cura você e ainda pode se tornar uma fonte de renda extra."
-    },
-    {
-      icon: Users,
-      title: "Comunidade Acolhedora",
-      description: "Faça parte de um grupo especial de mulheres que se apoiam e crescem juntas."
-    },
-    {
-      icon: Sparkles,
-      title: "Mentoria Personalizada",
-      description: "Receba orientação direta da Elisandra em cada etapa da sua jornada criativa."
-    },
-    {
-      icon: Gift,
-      title: "Bonecas com Significado Profundo",
-      description: "Crie bonecas que carregam intenção, amor e propósito terapêutico."
-    },
-    {
-      icon: Clock,
-      title: "Acesso Vitalício",
-      description: "Tenha acesso para sempre ao conteúdo e possa revisitar sempre que precisar."
-    }
-  ];
-
-  return (
-    <section className="bg-white section-padding">
+  const benefits = [{
+    icon: Heart,
+    title: "Reconexão com Sua Criança Interior",
+    description: "Desperte a magia que existe dentro de você através da arte e do criar com as mãos."
+  }, {
+    icon: Award,
+    title: "Habilidade Terapêutica e Geradora de Renda",
+    description: "Aprenda uma técnica que cura você e ainda pode se tornar uma fonte de renda extra."
+  }, {
+    icon: Users,
+    title: "Comunidade Acolhedora",
+    description: "Faça parte de um grupo especial de mulheres que se apoiam e crescem juntas."
+  }, {
+    icon: Sparkles,
+    title: "Mentoria Personalizada",
+    description: "Receba orientação direta da Elisandra em cada etapa da sua jornada criativa."
+  }, {
+    icon: Gift,
+    title: "Bonecas com Significado Profundo",
+    description: "Crie bonecas que carregam intenção, amor e propósito terapêutico."
+  }, {
+    icon: Clock,
+    title: "Acesso Vitalício",
+    description: "Tenha acesso para sempre ao conteúdo e possa revisitar sempre que precisar."
+  }];
+  return <section className="bg-white section-padding">
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-800 mb-4">
             Transforme Sua Vida Através da{' '}
-            <span className="text-primary">Arte Terapêutica</span>
+            <span className="text-zinc-950">Arte Terapêutica</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Mais do que costurar — é se acolher, se curar e descobrir uma nova forma 
@@ -51,11 +40,7 @@ const BenefitsSection = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {benefits.map((benefit, index) => (
-            <div 
-              key={index}
-              className="bg-warm-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 hover:scale-105 border border-peach-100"
-            >
+          {benefits.map((benefit, index) => <div key={index} className="bg-warm-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 hover:scale-105 border border-peach-100">
               <div className="bg-primary/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
                 <benefit.icon className="w-8 h-8 text-primary" />
               </div>
@@ -67,8 +52,7 @@ const BenefitsSection = () => {
               <p className="text-gray-600 leading-relaxed">
                 {benefit.description}
               </p>
-            </div>
-          ))}
+            </div>)}
         </div>
 
         <div className="text-center mt-16">
@@ -87,8 +71,6 @@ const BenefitsSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default BenefitsSection;

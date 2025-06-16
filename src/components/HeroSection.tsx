@@ -1,16 +1,13 @@
-
 import React from 'react';
 import { Heart, PlayCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-
 const HeroSection = () => {
-  return (
-    <section className="relative bg-gradient-to-br from-warm-50 via-peach-50 to-rose-50 overflow-hidden">
+  return <section className="relative bg-gradient-to-br from-warm-50 via-peach-50 to-rose-50 overflow-hidden">
       <div className="absolute inset-0 opacity-30">
         <div className="w-full h-full bg-gradient-to-br from-rose-100/20 to-peach-100/20"></div>
       </div>
       
-      <div className="container-custom section-padding relative">
+      <div className="container-custom section-padding relative bg-lime-200">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-4">
@@ -61,11 +58,7 @@ const HeroSection = () => {
 
           <div className="relative animate-scale-in">
             <div className="relative">
-              <img 
-                src="/lovable-uploads/d077f26e-be8e-43ab-a990-271214ab8049.png"
-                alt="Bonecas terapêuticas coloridas sendo criadas em círculo"
-                className="rounded-3xl shadow-2xl w-full h-auto"
-              />
+              <img src="/lovable-uploads/d077f26e-be8e-43ab-a990-271214ab8049.png" alt="Bonecas terapêuticas coloridas sendo criadas em círculo" className="rounded-3xl shadow-2xl w-full h-auto" />
               <div className="absolute -top-4 -right-4 bg-primary text-white px-4 py-2 rounded-full font-semibold shadow-lg">
                 ✨ Vagas Limitadas
               </div>
@@ -73,11 +66,7 @@ const HeroSection = () => {
             
             <div className="absolute -bottom-8 -left-8 bg-white p-6 rounded-2xl shadow-xl max-w-xs">
               <div className="flex items-center gap-3">
-                <img 
-                  src="/lovable-uploads/5abd3d43-ad53-4388-bad3-da22d0a6ae4d.png"
-                  alt="Boneca vermelha artesanal"
-                  className="w-16 h-16 rounded-full object-cover"
-                />
+                <img src="/lovable-uploads/5abd3d43-ad53-4388-bad3-da22d0a6ae4d.png" alt="Boneca vermelha artesanal" className="w-16 h-16 rounded-full object-cover" />
                 <div>
                   <p className="font-semibold text-gray-800">Elisandra Radaelli</p>
                   <p className="text-sm text-gray-600">Pedagoga & Terapeuta</p>
@@ -90,8 +79,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
