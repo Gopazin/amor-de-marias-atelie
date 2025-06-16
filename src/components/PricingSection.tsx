@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Check, Heart, Gift, Star, Clock } from 'lucide-react';
 
@@ -34,7 +33,7 @@ const PricingSection = () => {
             <div className="text-center mb-8">
               <div className="text-5xl font-bold text-primary mb-2">R$ 97</div>
               <div className="text-gray-500 line-through text-lg">R$ 197</div>
-              <div className="text-green-600 font-semibold">Oferta Limitada!</div>
+              <div className="text-moss-green-600 font-semibold">Oferta Limitada!</div>
             </div>
 
             <ul className="space-y-4 mb-8">
@@ -109,13 +108,13 @@ const PricingSection = () => {
           {/* Vivência Presencial */}
           <div className="bg-white rounded-3xl shadow-lg p-8 border border-peach-200 hover:shadow-xl transition-all duration-300">
             <div className="text-center mb-8">
-              <Star className="w-12 h-12 text-amber-500 mx-auto mb-4" />
+              <Star className="w-12 h-12 text-moss-green-500 mx-auto mb-4" />
               <h3 className="text-2xl font-bold text-gray-800 mb-2">Vivência Presencial</h3>
               <p className="text-gray-600">Experiência Completa</p>
             </div>
 
             <div className="text-center mb-8">
-              <div className="text-2xl font-bold text-amber-600 mb-2">Em Breve</div>
+              <div className="text-2xl font-bold text-moss-green-600 mb-2">Em Breve</div>
               <div className="text-gray-500">Próximas datas</div>
             </div>
 

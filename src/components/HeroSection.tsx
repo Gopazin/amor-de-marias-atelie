@@ -81,7 +81,7 @@ const HeroSection = () => {
                 <div>
                   <p className="font-semibold text-gray-800">Elisandra Radaelli</p>
                   <p className="text-sm text-gray-600">Pedagoga & Terapeuta</p>
-                  <div className="flex text-yellow-400 text-sm">
+                  <div className="flex text-moss-green-500 text-sm font-medium">
                     ⭐⭐⭐⭐⭐
                   </div>
                 </div>
