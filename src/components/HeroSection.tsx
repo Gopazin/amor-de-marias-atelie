@@ -39,7 +39,7 @@ const HeroSection = () => {
                 rel="noopener noreferrer"
                 className="btn-primary group inline-flex items-center justify-center text-white"
               >
-                Quero Fazer Minha Boneca Terapêutica
+                Comprar o Curso por R$ 97
                 <Heart className="w-5 h-5 ml-2 group-hover:scale-110 transition-transform" />
               </a>
             </div>
