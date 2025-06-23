@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { HelpCircle } from 'lucide-react';
@@ -75,9 +74,14 @@ const FAQSection = () => {
               Nossa equipe está pronta para te ajudar! Entre em contato e tire 
               todas as suas dúvidas antes de começar sua jornada.
             </p>
-            <button className="btn-secondary">
+            <a 
+              href="https://wa.me/41998794228" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="btn-secondary"
+            >
               Tirar Minhas Dúvidas com a Elisandra
-            </button>
+            </a>
           </div>
         </div>
       </div>
