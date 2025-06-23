@@ -49,7 +49,7 @@ const LeadMagnetModal = ({ isOpen, onClose }: LeadMagnetModalProps) => {
   };
 
   const handleYouTubeClick = () => {
-    window.open('https://youtube.com/watch?v=SEU_VIDEO_ID', '_blank');
+    window.open('https://youtu.be/WpDeNpU3XMM?si=iQspr_-_TyzfeAvv');
     onClose();
   };
 
