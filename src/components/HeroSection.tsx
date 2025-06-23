@@ -1,8 +1,11 @@
 import React from 'react';
 import { Heart, PlayCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+
 const HeroSection = () => {
-  return <section className="relative bg-gradient-to-br from-yellow-50 via-yellow-100 to-yellow-200 overflow-hidden">
+  return (
+    <section className="relative bg-gradient-to-br from-yellow-50 via-yellow-100 to-yellow-200 overflow-hidden">
+      
       <div className="absolute inset-0 opacity-20">
         <div className="w-full h-full bg-gradient-to-br from-yellow-200/30 to-yellow-300/30"></div>
       </div>
@@ -10,6 +13,7 @@ const HeroSection = () => {
       <div className="container-custom section-padding relative">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
+            
             <div className="space-y-4">
               <div className="inline-flex items-center gap-2 text-slate-800 px-4 py-2 rounded-full text-sm font-medium bg-yellow-300">
                 <Heart className="w-4 h-4" />
@@ -33,13 +37,14 @@ const HeroSection = () => {
                 href="https://pay.kiwify.com.br/hHUz57d" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="btn-primary group inline-flex items-center justify-center"
+                className="btn-primary group inline-flex items-center justify-center text-white"
               >
                 Quero Fazer Minha Boneca Terapêutica
                 <Heart className="w-5 h-5 ml-2 group-hover:scale-110 transition-transform" />
               </a>
             </div>
 
+            
             <div className="flex items-center gap-8 pt-6">
               <div className="text-center">
                 <div className="text-2xl font-bold text-yellow-600">R$ 97</div>
@@ -56,6 +61,7 @@ const HeroSection = () => {
             </div>
           </div>
 
+          
           <div className="relative animate-scale-in">
             <div className="relative">
               <img src="/lovable-uploads/d077f26e-be8e-43ab-a990-271214ab8049.png" alt="Bonecas terapêuticas coloridas sendo criadas em círculo" className="rounded-3xl shadow-2xl w-full h-auto" />
@@ -79,6 +85,8 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default HeroSection;
