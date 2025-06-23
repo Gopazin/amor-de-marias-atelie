@@ -1,10 +1,7 @@
-
 import React from 'react';
 import { Check, Heart, Gift, Star, Clock } from 'lucide-react';
-
 const PricingSection = () => {
-  return (
-    <section className="bg-gradient-to-br from-yellow-50 to-yellow-100 section-padding">
+  return <section className="bg-gradient-to-br from-yellow-50 to-yellow-100 section-padding">
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-800 mb-4">
@@ -64,7 +61,7 @@ const PricingSection = () => {
               </li>
             </ul>
 
-            <button className="w-full btn-primary text-center">
+            <button className="w-full btn-primary text-center text-slate-50">
               Quero Fazer Minha Boneca Terapêutica
             </button>
           </div>
@@ -160,8 +157,6 @@ const PricingSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default PricingSection;
