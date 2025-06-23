@@ -1,11 +1,8 @@
-
 import React from 'react';
 import { Heart, PlayCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-
 const HeroSection = () => {
-  return (
-    <section className="relative bg-gradient-to-br from-yellow-50 via-yellow-100 to-yellow-200 overflow-hidden">
+  return <section className="relative bg-gradient-to-br from-yellow-50 via-yellow-100 to-yellow-200 overflow-hidden">
       <div className="absolute inset-0 opacity-20">
         <div className="w-full h-full bg-gradient-to-br from-yellow-200/30 to-yellow-300/30"></div>
       </div>
@@ -37,10 +34,7 @@ const HeroSection = () => {
                 <Heart className="w-5 h-5 ml-2 group-hover:scale-110 transition-transform" />
               </Button>
               
-              <Button variant="outline" className="btn-secondary group">
-                <PlayCircle className="w-5 h-5 mr-2" />
-                Ver Como Funciona
-              </Button>
+              
             </div>
 
             <div className="flex items-center gap-8 pt-6">
@@ -61,11 +55,7 @@ const HeroSection = () => {
 
           <div className="relative animate-scale-in">
             <div className="relative">
-              <img 
-                src="/lovable-uploads/d077f26e-be8e-43ab-a990-271214ab8049.png" 
-                alt="Bonecas terapêuticas coloridas sendo criadas em círculo" 
-                className="rounded-3xl shadow-2xl w-full h-auto" 
-              />
+              <img src="/lovable-uploads/d077f26e-be8e-43ab-a990-271214ab8049.png" alt="Bonecas terapêuticas coloridas sendo criadas em círculo" className="rounded-3xl shadow-2xl w-full h-auto" />
               <div className="absolute -top-4 -right-4 text-white px-4 py-2 rounded-full font-semibold shadow-lg bg-slate-800">
                 ✨ Vagas Limitadas
               </div>
@@ -73,11 +63,7 @@ const HeroSection = () => {
             
             <div className="absolute -bottom-8 -left-8 bg-white p-6 rounded-2xl shadow-xl max-w-xs">
               <div className="flex items-center gap-3">
-                <img 
-                  src="/lovable-uploads/5abd3d43-ad53-4388-bad3-da22d0a6ae4d.png" 
-                  alt="Boneca vermelha artesanal" 
-                  className="w-16 h-16 rounded-full object-cover" 
-                />
+                <img src="/lovable-uploads/5abd3d43-ad53-4388-bad3-da22d0a6ae4d.png" alt="Boneca vermelha artesanal" className="w-16 h-16 rounded-full object-cover" />
                 <div>
                   <p className="font-semibold text-slate-800">Elisandra Radaelli</p>
                   <p className="text-sm text-slate-600">Pedagoga & Terapeuta</p>
@@ -90,8 +76,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
