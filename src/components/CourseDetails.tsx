@@ -53,26 +53,7 @@ const CourseDetails = () => {
                 </div>)}
             </div>
 
-            <div className="mt-12 p-6 bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-2xl border border-yellow-200">
-              <h4 className="text-xl font-bold text-slate-800 mb-4 flex items-center gap-2">
-                <Heart className="w-6 h-6 text-yellow-600" />
-                Bônus Especiais
-              </h4>
-              <ul className="space-y-3 text-slate-700">
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-yellow-600" />
-                  Molde Extra - Boneca Pequena (Valor R$ 27)
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-yellow-600" />
-                  Grupo VIP no WhatsApp com Elisandra
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-yellow-600" />
-                  E-book: "Energizando Sua Boneca Terapêutica"
-                </li>
-              </ul>
-            </div>
+            
           </div>
 
           <div>
