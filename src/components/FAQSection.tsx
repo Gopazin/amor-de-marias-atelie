@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { HelpCircle } from 'lucide-react';
@@ -78,7 +79,7 @@ const FAQSection = () => {
               href="https://wa.me/41998794228" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="btn-secondary"
+              className="inline-block bg-yellow-200 text-slate-800 hover:bg-yellow-300 transition-all duration-300 rounded-full px-6 py-3 font-medium border border-yellow-400 text-center w-full sm:w-auto"
             >
               Tirar Minhas Dúvidas com a Elisandra
             </a>
