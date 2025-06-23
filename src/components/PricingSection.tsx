@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Check, Heart, Gift, Star, Clock } from 'lucide-react';
 
@@ -118,33 +119,50 @@ const PricingSection = () => {
 
           {/* Vivência Presencial */}
           <div className="bg-white rounded-3xl shadow-lg p-8 border border-yellow-300 hover:shadow-xl transition-all duration-300">
-            <div className="text-center mb-8">
+            <div className="text-center mb-6">
               <Star className="w-12 h-12 text-yellow-600 mx-auto mb-4" />
               <h3 className="text-2xl font-bold text-slate-800 mb-2">Vivência Presencial</h3>
-              <p className="text-slate-700">Experiência Completa</p>
+              <p className="text-slate-700">Experiência Completa em Grupo</p>
             </div>
 
-            <div className="text-center mb-8">
+            <div className="mb-6">
+              <h4 className="text-lg font-semibold text-slate-800 mb-3">Como é o curso presencial?</h4>
+              <p className="text-slate-700 text-sm leading-relaxed mb-4">
+                O curso presencial é uma vivência em grupo, com momentos de silêncio, troca e conexão, 
+                dinâmica e confecção da boneca.
+              </p>
+              <p className="text-slate-700 text-sm leading-relaxed mb-4">
+                É um encontro com outras mulheres e, principalmente, com a nossa criança interior. 
+                Não é necessário costurar no dia.
+              </p>
+              <p className="text-slate-700 text-sm leading-relaxed">
+                Cada boneca é única, e o processo de criá-la é profundo: colocamos ali nossas intenções, 
+                histórias, sentimentos. É mais do que aprender uma técnica, seja para vender ou presentear— 
+                é viver um processo de presença, escuta e amor, que continua presente após o curso.
+              </p>
+            </div>
+
+            <div className="text-center mb-6">
               <div className="text-2xl font-bold text-slate-800 mb-2">Em Breve</div>
               <div className="text-slate-600">Próximas datas</div>
             </div>
 
-            <ul className="space-y-4 mb-8">
+            <ul className="space-y-3 mb-8">
               <li className="flex items-center gap-3">
                 <Check className="w-5 h-5 text-yellow-600" />
-                <span className="text-slate-700">Encontro presencial</span>
+                <span className="text-slate-700 text-sm">Vivência em grupo</span>
               </li>
               <li className="flex items-center gap-3">
                 <Check className="w-5 h-5 text-yellow-600" />
-                <span className="text-slate-700">Mentoria direta</span>
+                <span className="text-slate-700 text-sm">Momentos de silêncio e conexão</span>
               </li>
               <li className="flex items-center gap-3">
                 <Check className="w-5 h-5 text-yellow-600" />
-                <span className="text-slate-700">Conexão em grupo</span>
+                <span className="text-slate-700 text-sm">Confecção da boneca</span>
               </li>
               <li className="flex items-center gap-3">
                 <Check className="w-5 h-5 text-yellow-600" />
-                <span className="text-slate-700">Materiais inclusos</span>
+                <span className="text-slate-700 text-sm">Processo de cura e presença</span>
               </li>
             </ul>
 
@@ -154,7 +172,7 @@ const PricingSection = () => {
               rel="noopener noreferrer"
               className="w-full btn-secondary text-center inline-flex items-center justify-center"
             >
-              Quero Participar da Vivência
+              Quero Saber Mais pelo WhatsApp
             </a>
           </div>
         </div>
