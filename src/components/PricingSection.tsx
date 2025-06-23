@@ -1,10 +1,7 @@
-
 import React from 'react';
 import { Check, Heart, Gift, Star, Clock } from 'lucide-react';
-
 const PricingSection = () => {
-  return (
-    <section className="bg-gradient-to-br from-yellow-50 to-yellow-100 section-padding">
+  return <section className="bg-gradient-to-br from-yellow-50 to-yellow-100 section-padding">
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-800 mb-4">
@@ -65,57 +62,13 @@ const PricingSection = () => {
               </li>
             </ul>
 
-            <a 
-              href="https://pay.kiwify.com.br/hHUz57d" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="w-full btn-primary text-center text-slate-50 inline-flex items-center justify-center"
-            >
+            <a href="https://pay.kiwify.com.br/hHUz57d" target="_blank" rel="noopener noreferrer" className="w-full btn-primary text-center text-slate-50 inline-flex items-center justify-center">
               Quero Fazer Minha Boneca Terapêutica
             </a>
           </div>
 
           {/* Molde Extra */}
-          <div className="bg-white rounded-3xl shadow-lg p-8 border border-yellow-300 hover:shadow-xl transition-all duration-300">
-            <div className="text-center mb-8">
-              <Gift className="w-12 h-12 text-rose-500 mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-slate-800 mb-2">Molde Extra</h3>
-              <p className="text-slate-700">Boneca Pequena Especial</p>
-            </div>
-
-            <div className="text-center mb-8">
-              <div className="text-4xl font-bold text-rose-500 mb-2">R$ 27</div>
-              <div className="text-slate-600">Complemento perfeito</div>
-            </div>
-
-            <ul className="space-y-4 mb-8">
-              <li className="flex items-center gap-3">
-                <Check className="w-5 h-5 text-yellow-600" />
-                <span className="text-slate-700">Molde da boneca pequena</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Check className="w-5 h-5 text-yellow-600" />
-                <span className="text-slate-700">Ideal para presentes</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Check className="w-5 h-5 text-yellow-600" />
-                <span className="text-slate-700">Técnica simplificada</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Check className="w-5 h-5 text-yellow-600" />
-                <span className="text-slate-700">Download imediato</span>
-              </li>
-            </ul>
-
-            <a 
-              href="https://wa.me/41998794228" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="w-full btn-secondary text-center inline-flex items-center justify-center"
-            >
-              Quero esse Presente Extra
-            </a>
-          </div>
+          
 
           {/* Vivência Presencial */}
           <div className="bg-white rounded-3xl shadow-lg p-8 border border-yellow-300 hover:shadow-xl transition-all duration-300">
@@ -166,12 +119,7 @@ const PricingSection = () => {
               </li>
             </ul>
 
-            <a 
-              href="https://wa.me/41998794228" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="w-full btn-secondary text-center inline-flex items-center justify-center"
-            >
+            <a href="https://wa.me/41998794228" target="_blank" rel="noopener noreferrer" className="w-full btn-secondary text-center inline-flex items-center justify-center">
               Quero Saber Mais pelo WhatsApp
             </a>
           </div>
@@ -193,8 +141,6 @@ const PricingSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default PricingSection;

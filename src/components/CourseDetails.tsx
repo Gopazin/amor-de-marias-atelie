@@ -83,17 +83,7 @@ const CourseDetails = () => {
         </div>
 
         <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-yellow-400 to-yellow-500 text-slate-900 p-8 rounded-3xl">
-            <h3 className="text-2xl md:text-3xl font-display font-bold mb-4 text-slate-50">
-              Pronta Para Começar Sua Transformação?
-            </h3>
-            <p className="text-xl mb-8 opacity-90 text-slate-50">
-              Mais de 500 mulheres já descobriram o poder terapêutico dessa arte
-            </p>
-            <button className="bg-white hover:bg-yellow-50 text-slate-900 font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 hover:scale-105 shadow-lg">
-              Sim, Quero Fazer Minha Boneca Terapêutica!
-            </button>
-          </div>
+          
         </div>
       </div>
     </section>;
