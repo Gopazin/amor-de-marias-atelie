@@ -1,7 +1,9 @@
 import React from 'react';
 import { Check, Heart, Gift, Star, Clock } from 'lucide-react';
+
 const PricingSection = () => {
-  return <section className="bg-gradient-to-br from-yellow-50 to-yellow-100 section-padding">
+  return (
+    <section className="bg-gradient-to-br from-yellow-50 to-yellow-100 section-padding">
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-800 mb-4">
@@ -30,8 +32,9 @@ const PricingSection = () => {
 
             <div className="text-center mb-8">
               <div className="text-5xl font-bold text-yellow-600 mb-2">R$ 97</div>
-              <div className="text-slate-500 line-through text-lg">R$ 197</div>
-              <div className="text-rose-600 font-semibold">Oferta Limitada!</div>
+              <div className="text-slate-500 line-through text-lg">R$ 247</div>
+              <div className="text-rose-600 font-semibold mb-2">Oferta Limitada!</div>
+              <div className="text-slate-600 text-sm">ou 12x de R$ 10,03</div>
             </div>
 
             <ul className="space-y-4 mb-8">
@@ -163,7 +166,7 @@ const PricingSection = () => {
               Oferta Por Tempo Limitado!
             </h3>
             <p className="text-slate-700 text-lg mb-6">
-              Aproveite o preço promocional de R$ 97 (valor normal R$ 197) 
+              Aproveite o preço promocional de R$ 97 (valor normal R$ 247) 
               e comece sua jornada de transformação hoje mesmo.
             </p>
             <div className="text-red-500 font-semibold text-lg">
@@ -172,6 +175,8 @@ const PricingSection = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default PricingSection;
