@@ -29,12 +29,15 @@ const HeroSection = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="btn-primary group">
+              <a 
+                href="https://pay.kiwify.com.br/hHUz57d" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="btn-primary group inline-flex items-center justify-center"
+              >
                 Quero Fazer Minha Boneca Terapêutica
                 <Heart className="w-5 h-5 ml-2 group-hover:scale-110 transition-transform" />
-              </Button>
-              
-              
+              </a>
             </div>
 
             <div className="flex items-center gap-8 pt-6">

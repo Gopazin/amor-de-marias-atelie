@@ -13,7 +13,7 @@ const FooterSection = () => {
             </p>
             
             <a 
-              href="https://wa.me/5511999999999" 
+              href="https://wa.me/41998794228" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-green-500 text-white px-8 py-4 rounded-full hover:bg-green-600 transition-colors font-semibold text-lg"

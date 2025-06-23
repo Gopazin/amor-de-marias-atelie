@@ -86,10 +86,15 @@ const AboutSection = () => {
             <p className="text-slate-700 text-lg mb-6">
               Deixe a Elisandra te guiar nessa experiência única de criação e autocura
             </p>
-            <button className="btn-primary text-slate-50">
+            <a 
+              href="https://pay.kiwify.com.br/hHUz57d" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="btn-primary text-slate-50 inline-flex items-center"
+            >
               Começar Minha Jornada Agora
               <Heart className="w-5 h-5 ml-2" />
-            </button>
+            </a>
           </div>
         </div>
       </div>

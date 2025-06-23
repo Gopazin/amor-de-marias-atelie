@@ -61,9 +61,14 @@ const PricingSection = () => {
               </li>
             </ul>
 
-            <button className="w-full btn-primary text-center text-slate-50">
+            <a 
+              href="https://pay.kiwify.com.br/hHUz57d" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-full btn-primary text-center text-slate-50 inline-flex items-center justify-center"
+            >
               Quero Fazer Minha Boneca Terapêutica
-            </button>
+            </a>
           </div>
 
           {/* Molde Extra */}
@@ -98,9 +103,14 @@ const PricingSection = () => {
               </li>
             </ul>
 
-            <button className="w-full btn-secondary text-center">
+            <a 
+              href="https://wa.me/41998794228" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-full btn-secondary text-center inline-flex items-center justify-center"
+            >
               Quero esse Presente Extra
-            </button>
+            </a>
           </div>
 
           {/* Vivência Presencial */}
@@ -135,9 +145,14 @@ const PricingSection = () => {
               </li>
             </ul>
 
-            <button className="w-full btn-secondary text-center">
+            <a 
+              href="https://wa.me/41998794228" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-full btn-secondary text-center inline-flex items-center justify-center"
+            >
               Quero Participar da Vivência
-            </button>
+            </a>
           </div>
         </div>
 

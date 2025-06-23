@@ -66,9 +66,14 @@ const TestimonialsSection = () => {
                   das bonecas Waldorf. Seja a próxima a descobrir esse universo 
                   de cura e criatividade.
                 </p>
-                <button className="btn-primary mt-4 text-slate-50">
+                <a 
+                  href="https://pay.kiwify.com.br/hHUz57d" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="btn-primary mt-4 text-slate-50 inline-flex items-center"
+                >
                   Quero Fazer Parte Dessa Comunidade
-                </button>
+                </a>
               </div>
             </div>
           </div>

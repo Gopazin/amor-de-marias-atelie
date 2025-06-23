@@ -64,10 +64,15 @@ const BenefitsSection = () => {
               Descubra o poder transformador de criar algo único com suas próprias mãos, 
               enquanto se conecta com sua essência mais profunda.
             </p>
-            <button className="btn-primary text-gray-50">
+            <a 
+              href="https://pay.kiwify.com.br/hHUz57d" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="btn-primary text-gray-50 inline-flex items-center"
+            >
               Começar Minha Jornada Agora
               <Heart className="w-5 h-5 ml-2" />
-            </button>
+            </a>
           </div>
         </div>
       </div>
