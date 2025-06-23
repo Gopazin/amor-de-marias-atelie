@@ -1,13 +1,8 @@
 
 import React from 'react';
-import { Heart, PlayCircle } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import LeadMagnetModal from './LeadMagnetModal';
-import { useLeadMagnet } from '@/hooks/useLeadMagnet';
+import { Heart } from 'lucide-react';
 
 const HeroSection = () => {
-  const { isModalOpen, openModal, closeModal } = useLeadMagnet();
-
   return (
     <section className="relative bg-gradient-to-br from-yellow-50 via-yellow-100 to-yellow-200 overflow-hidden">
       
@@ -38,14 +33,6 @@ const HeroSection = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button 
-                onClick={openModal}
-                className="btn-secondary group inline-flex items-center justify-center text-slate-800 border-2 border-yellow-400 hover:bg-yellow-300"
-              >
-                🎁 Quero Minha Aula Gratuita
-                <PlayCircle className="w-5 h-5 ml-2 group-hover:scale-110 transition-transform" />
-              </button>
-              
               <a 
                 href="https://pay.kiwify.com.br/hHUz57d" 
                 target="_blank" 
@@ -98,8 +85,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-
-      <LeadMagnetModal isOpen={isModalOpen} onClose={closeModal} />
     </section>
   );
 };
