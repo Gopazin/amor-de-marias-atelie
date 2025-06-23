@@ -8,32 +8,32 @@
 @layer base {
   :root {
     --background: 254 252 249;
-    --foreground: 120 113 108;
+    --foreground: 51 65 85;
 
     --card: 255 255 255;
-    --card-foreground: 120 113 108;
+    --card-foreground: 51 65 85;
 
     --popover: 255 255 255;
-    --popover-foreground: 120 113 108;
+    --popover-foreground: 51 65 85;
 
-    --primary: 217 119 142;
-    --primary-foreground: 254 252 249;
+    --primary: 251 191 36;
+    --primary-foreground: 15 23 42;
 
-    --secondary: 244 224 210;
-    --secondary-foreground: 120 113 108;
+    --secondary: 254 240 138;
+    --secondary-foreground: 15 23 42;
 
-    --muted: 249 245 240;
-    --muted-foreground: 161 143 124;
+    --muted: 254 249 195;
+    --muted-foreground: 100 116 139;
 
-    --accent: 252 211 190;
-    --accent-foreground: 120 113 108;
+    --accent: 253 224 71;
+    --accent-foreground: 15 23 42;
 
     --destructive: 239 68 68;
     --destructive-foreground: 254 252 249;
 
-    --border: 237 215 199;
-    --input: 237 215 199;
-    --ring: 217 119 142;
+    --border: 250 204 21;
+    --input: 250 204 21;
+    --ring: 251 191 36;
 
     --radius: 0.75rem;
 
@@ -53,13 +53,13 @@
     --warm-100: 249 245 240;
     --warm-200: 244 237 230;
 
-    --moss-green-50: 248 251 245;
-    --moss-green-100: 234 245 220;
-    --moss-green-200: 197 225 165;
-    --moss-green-300: 134 176 103;
-    --moss-green-400: 93 142 78;
-    --moss-green-500: 67 112 68;
-    --moss-green-600: 52 87 55;
+    --yellow-50: 254 252 232;
+    --yellow-100: 254 249 195;
+    --yellow-200: 254 240 138;
+    --yellow-300: 253 224 71;
+    --yellow-400: 250 204 21;
+    --yellow-500: 234 179 8;
+    --yellow-600: 202 138 4;
   }
 
   body {
@@ -78,11 +78,11 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 rounded-full px-8 py-4 font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105;
+    @apply bg-yellow-500 text-slate-900 hover:bg-yellow-400 transition-all duration-300 rounded-full px-8 py-4 font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105;
   }
   
   .btn-secondary {
-    @apply bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-all duration-300 rounded-full px-6 py-3 font-medium border border-primary/20;
+    @apply bg-yellow-200 text-slate-800 hover:bg-yellow-300 transition-all duration-300 rounded-full px-6 py-3 font-medium border border-yellow-400;
   }
   
   .section-padding {
