@@ -1,17 +1,15 @@
-
 import React from 'react';
 import { CheckCircle, Gift, Users, Clock, Download, Heart } from 'lucide-react';
 
 const CourseDetails = () => {
   const features = [
-    "Curso Online Completo com Acesso Vitalício",
-    "Moldes Digitais Inclusos (Boneca Grande e Pequena)",
-    "Grupo Exclusivo de Alunas no WhatsApp",
-    "Mentoria Personalizada da Elisandra",
-    "Técnicas Baseadas na Pedagogia Waldorf",
-    "Suporte Durante Todo o Processo",
-    "Lista Completa de Materiais",
-    "Certificado de Participação"
+    "Moldes exclusivos",
+    "Lista de Materiais",
+    "Passo a passo detalhado",
+    "Vários vídeos explicativos online",
+    "Grupo de alunas com apoio e troca",
+    "Meditação guiada Online sintonia com sua criança interior, Por Elisandra Radaelli",
+    "Suporte direto comigo"
   ];
 
   const modules = [
