@@ -2,15 +2,24 @@ import React from 'react';
 import { Images, Upload } from 'lucide-react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 const PhotoGallery = () => {
-  // 10 campos de fotos - podem ser preenchidos posteriormente
-  const photoSlots = Array.from({
-    length: 10
-  }, (_, index) => ({
-    id: index + 1,
-    src: null,
-    // Para ser preenchido com as fotos escolhidas
-    alt: `Foto ${index + 1}`
-  }));
+  // 15 campos de fotos - primeiros 10 preenchidos com fotos das alunas
+  const photoSlots = [
+    { id: 1, src: "/lovable-uploads/89bab1e6-cd11-4867-8c55-cc2f58bfc3a8.png", alt: "Aluna com boneca rosa" },
+    { id: 2, src: "/lovable-uploads/97f90511-5c8e-4be4-b04d-876a3e8a10bf.png", alt: "Aluna com boneca roxa" },
+    { id: 3, src: "/lovable-uploads/b599e773-00a9-4f7e-8eea-1e39dad45378.png", alt: "Aluna com boneca vermelha" },
+    { id: 4, src: "/lovable-uploads/2c2d3448-3932-4c24-8804-ca191c194a8e.png", alt: "Grupo de alunas com suas bonecas" },
+    { id: 5, src: "/lovable-uploads/5b463b55-b36b-4c76-838a-7cd061609f8a.png", alt: "Aluna com boneca azul" },
+    { id: 6, src: "/lovable-uploads/a41290b6-3a26-41ba-94ac-36220ce66d2f.png", alt: "Criança com boneca vermelha" },
+    { id: 7, src: "/lovable-uploads/82921ec2-c7fa-43fc-b66d-4332a1044db7.png", alt: "Bonecas coloridas" },
+    { id: 8, src: "/lovable-uploads/b3acfdb6-53bd-4c92-bc25-dda3453248fd.png", alt: "Bonecas azuis gêmeas" },
+    { id: 9, src: "/lovable-uploads/d1f2c8fb-aab6-480c-b1cb-915aac58c4a3.png", alt: "Professora ensinando" },
+    { id: 10, src: "/lovable-uploads/74d75b00-d578-4cbd-9458-702f3493ef58.png", alt: "Aluna com boneca branca" },
+    { id: 11, src: null, alt: "Foto 11" },
+    { id: 12, src: null, alt: "Foto 12" },
+    { id: 13, src: null, alt: "Foto 13" },
+    { id: 14, src: null, alt: "Foto 14" },
+    { id: 15, src: null, alt: "Foto 15" }
+  ];
   return <section className="bg-white section-padding">
       <div className="container-custom">
         <div className="text-center mb-16">
