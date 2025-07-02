@@ -14,11 +14,11 @@ const PhotoGallery = () => {
     { id: 8, src: "/lovable-uploads/b3acfdb6-53bd-4c92-bc25-dda3453248fd.png", alt: "Bonecas azuis gêmeas" },
     { id: 9, src: "/lovable-uploads/d1f2c8fb-aab6-480c-b1cb-915aac58c4a3.png", alt: "Professora ensinando" },
     { id: 10, src: "/lovable-uploads/74d75b00-d578-4cbd-9458-702f3493ef58.png", alt: "Aluna com boneca branca" },
-    { id: 11, src: null, alt: "Foto 11" },
-    { id: 12, src: null, alt: "Foto 12" },
-    { id: 13, src: null, alt: "Foto 13" },
-    { id: 14, src: null, alt: "Foto 14" },
-    { id: 15, src: null, alt: "Foto 15" }
+    { id: 11, src: "/lovable-uploads/8470d056-50ed-4fdc-a0fa-f66c31b92b85.png", alt: "Criança abraçando boneca vermelha" },
+    { id: 12, src: "/lovable-uploads/39c4cc96-a86c-44ab-bbc9-63e75d61ba18.png", alt: "Momento carinhoso com boneca" },
+    { id: 13, src: "/lovable-uploads/bfcc947d-f91b-4eca-9fab-15a20cb220c0.png", alt: "Turma completa com suas criações" },
+    { id: 14, src: "/lovable-uploads/794daf1a-ffbe-43dc-8955-91ff621e6359.png", alt: "Alunas trabalhando na oficina" },
+    { id: 15, src: "/lovable-uploads/815eeadb-c258-41b3-89b3-208afd5b2a1a.png", alt: "Criança com boneca rosa" }
   ];
   return <section className="bg-white section-padding">
       <div className="container-custom">
@@ -37,8 +37,8 @@ const PhotoGallery = () => {
             <CarouselContent className="-ml-2 md:-ml-4">
               {photoSlots.map(photo => <CarouselItem key={photo.id} className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/3">
                   <div className="bg-yellow-50 rounded-2xl p-6 border border-yellow-200 hover:shadow-lg transition-all duration-300">
-                    <div className="aspect-square bg-yellow-100 rounded-xl flex items-center justify-center mb-4 border-2 border-dashed border-yellow-300">
-                      {photo.src ? <img src={photo.src} alt={photo.alt} className="w-full h-full object-cover rounded-xl" /> : <div className="text-center">
+                     <div className="aspect-square bg-yellow-100 rounded-xl flex items-center justify-center mb-4 border-2 border-dashed border-yellow-300 overflow-hidden">
+                       {photo.src ? <img src={photo.src} alt={photo.alt} className="w-full h-full object-cover object-center rounded-xl" /> : <div className="text-center">
                           <Upload className="w-12 h-12 text-yellow-500 mx-auto mb-2" />
                           <p className="text-sm text-yellow-600 font-medium">
                             Foto {photo.id}
