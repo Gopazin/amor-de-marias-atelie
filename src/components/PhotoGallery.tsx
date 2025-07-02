@@ -2,23 +2,23 @@ import React from 'react';
 import { Images, Upload } from 'lucide-react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 const PhotoGallery = () => {
-  // 15 campos de fotos - primeiros 10 preenchidos com fotos das alunas
+  // 15 campos de fotos - você pode editar cada src para escolher qual foto aparece
   const photoSlots = [
-    { id: 1, src: "/lovable-uploads/89bab1e6-cd11-4867-8c55-cc2f58bfc3a8.png", alt: "Aluna com boneca rosa" },
-    { id: 2, src: "/lovable-uploads/97f90511-5c8e-4be4-b04d-876a3e8a10bf.png", alt: "Aluna com boneca roxa" },
-    { id: 3, src: "/lovable-uploads/b599e773-00a9-4f7e-8eea-1e39dad45378.png", alt: "Aluna com boneca vermelha" },
-    { id: 4, src: "/lovable-uploads/2c2d3448-3932-4c24-8804-ca191c194a8e.png", alt: "Grupo de alunas com suas bonecas" },
-    { id: 5, src: "/lovable-uploads/5b463b55-b36b-4c76-838a-7cd061609f8a.png", alt: "Aluna com boneca azul" },
-    { id: 6, src: "/lovable-uploads/a41290b6-3a26-41ba-94ac-36220ce66d2f.png", alt: "Criança com boneca vermelha" },
-    { id: 7, src: "/lovable-uploads/82921ec2-c7fa-43fc-b66d-4332a1044db7.png", alt: "Bonecas coloridas" },
-    { id: 8, src: "/lovable-uploads/b3acfdb6-53bd-4c92-bc25-dda3453248fd.png", alt: "Bonecas azuis gêmeas" },
-    { id: 9, src: "/lovable-uploads/d1f2c8fb-aab6-480c-b1cb-915aac58c4a3.png", alt: "Professora ensinando" },
-    { id: 10, src: "/lovable-uploads/74d75b00-d578-4cbd-9458-702f3493ef58.png", alt: "Aluna com boneca branca" },
-    { id: 11, src: "/lovable-uploads/8470d056-50ed-4fdc-a0fa-f66c31b92b85.png", alt: "Criança abraçando boneca vermelha" },
-    { id: 12, src: "/lovable-uploads/39c4cc96-a86c-44ab-bbc9-63e75d61ba18.png", alt: "Momento carinhoso com boneca" },
-    { id: 13, src: "/lovable-uploads/bfcc947d-f91b-4eca-9fab-15a20cb220c0.png", alt: "Turma completa com suas criações" },
-    { id: 14, src: "/lovable-uploads/794daf1a-ffbe-43dc-8955-91ff621e6359.png", alt: "Alunas trabalhando na oficina" },
-    { id: 15, src: "/lovable-uploads/815eeadb-c258-41b3-89b3-208afd5b2a1a.png", alt: "Criança com boneca rosa" }
+    { id: 1, src: null, alt: "Foto 1" },
+    { id: 2, src: null, alt: "Foto 2" },
+    { id: 3, src: null, alt: "Foto 3" },
+    { id: 4, src: null, alt: "Foto 4" },
+    { id: 5, src: null, alt: "Foto 5" },
+    { id: 6, src: null, alt: "Foto 6" },
+    { id: 7, src: null, alt: "Foto 7" },
+    { id: 8, src: null, alt: "Foto 8" },
+    { id: 9, src: null, alt: "Foto 9" },
+    { id: 10, src: null, alt: "Foto 10" },
+    { id: 11, src: null, alt: "Foto 11" },
+    { id: 12, src: null, alt: "Foto 12" },
+    { id: 13, src: null, alt: "Foto 13" },
+    { id: 14, src: null, alt: "Foto 14" },
+    { id: 15, src: null, alt: "Foto 15" }
   ];
   return <section className="bg-white section-padding">
       <div className="container-custom">
