@@ -3,7 +3,7 @@ import React from 'react';
 import HeroSection from '@/components/HeroSection';
 import BenefitsSection from '@/components/BenefitsSection';
 import FreeClassSection from '@/components/FreeClassSection';
-import CourseDetails from '@/components/CourseDetails';
+import PhotoGallery from '@/components/PhotoGallery';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import AboutSection from '@/components/AboutSection';
 import PricingSection from '@/components/PricingSection';
@@ -16,7 +16,7 @@ const Index = () => {
       <HeroSection />
       <BenefitsSection />
       <FreeClassSection />
-      <CourseDetails />
+      <PhotoGallery />
       <TestimonialsSection />
       <AboutSection />
       <PricingSection />
