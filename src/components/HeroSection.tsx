@@ -1,10 +1,7 @@
-
 import React from 'react';
 import { Heart } from 'lucide-react';
-
 const HeroSection = () => {
-  return (
-    <section className="relative bg-gradient-to-br from-yellow-50 via-yellow-100 to-yellow-200 overflow-hidden">
+  return <section className="relative bg-gradient-to-br from-yellow-50 via-yellow-100 to-yellow-200 overflow-hidden">
       
       <div className="absolute inset-0 opacity-20">
         <div className="w-full h-full bg-gradient-to-br from-yellow-200/30 to-yellow-300/30"></div>
@@ -33,12 +30,7 @@ const HeroSection = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <a 
-                href="https://pay.kiwify.com.br/hHUz57d" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="btn-primary group inline-flex items-center justify-center text-white whitespace-nowrap"
-              >
+              <a href="https://pay.kiwify.com.br/hHUz57d" target="_blank" rel="noopener noreferrer" className="btn-primary group inline-flex items-center justify-center text-white whitespace-nowrap">
                 Comprar o Curso por R$&nbsp;97
                 <Heart className="w-5 h-5 ml-2 group-hover:scale-110 transition-transform" />
               </a>
@@ -72,7 +64,7 @@ const HeroSection = () => {
             
             <div className="absolute -bottom-8 -left-8 bg-white p-6 rounded-2xl shadow-xl max-w-xs">
               <div className="flex items-center gap-3">
-                <img src="/lovable-uploads/5abd3d43-ad53-4388-bad3-da22d0a6ae4d.png" alt="Boneca vermelha artesanal" className="w-16 h-16 rounded-full object-cover" />
+                <img alt="Boneca vermelha artesanal" className="w-16 h-16 rounded-full object-cover" src="/lovable-uploads/ad957365-7a42-4849-9238-19a9eb6413ae.jpg" />
                 <div>
                   <p className="font-semibold text-slate-800">Elisandra Radaelli</p>
                   <p className="text-sm text-slate-600">Pedagoga & Terapeuta</p>
@@ -85,8 +77,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
