@@ -56,6 +56,16 @@ const BenefitsSection = () => {
               </div>
               
               <div className="relative">
+                <div className="text-center mb-4">
+                  <div className="inline-flex items-center gap-3 bg-yellow-50 px-6 py-3 rounded-full border border-yellow-200 hover:bg-yellow-100 transition-all duration-300 cursor-pointer group">
+                    <div className="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+                      <div className="w-0 h-0 border-l-[6px] border-l-white border-t-[4px] border-t-transparent border-b-[4px] border-b-transparent ml-1"></div>
+                    </div>
+                    <p className="text-lg text-slate-700 font-medium group-hover:text-slate-800 transition-colors">
+                      Saiba mais sobre a Elisandra e as bonecas Waldorf
+                    </p>
+                  </div>
+                </div>
                 <img alt="Boneca de pano terapêutica artesanal" className="rounded-2xl shadow-lg w-full h-auto" src="/lovable-uploads/9b0b4b32-e14e-42c1-ae22-7b7cba9cdb0c.jpg" />
                 <div className="absolute -top-3 -right-3 bg-yellow-400 text-slate-800 px-3 py-1 rounded-full text-sm font-semibold">
                   ❤️ Feita com amor
