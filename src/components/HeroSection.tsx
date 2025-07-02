@@ -9,12 +9,14 @@ const HeroSection = () => {
       
       <div className="container-custom section-padding relative">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8 animate-fade-in">
+          <div className="space-y-8 animate-fade-in text-center lg:text-left">
             
-            <div className="space-y-4">
-              <div className="inline-flex items-center gap-2 text-slate-800 px-4 py-2 rounded-full text-sm font-medium bg-yellow-300">
-                <Heart className="w-4 h-4" />
-                Curso Terapêutico Online
+            <div className="space-y-6">
+              <div className="flex justify-center lg:justify-start">
+                <div className="inline-flex items-center gap-2 text-slate-800 px-4 py-2 rounded-full text-sm font-medium bg-yellow-300">
+                  <Heart className="w-4 h-4" />
+                  Curso Terapêutico Online
+                </div>
               </div>
               
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-slate-800 leading-tight">
@@ -23,13 +25,13 @@ const HeroSection = () => {
                 e Acolha a Si Mesma
               </h1>
               
-              <p className="text-xl text-slate-700 leading-relaxed">
+              <p className="text-xl text-slate-700 leading-relaxed max-w-2xl mx-auto lg:mx-0">
                 Um curso afetivo e profundo para mulheres que buscam se expressar, 
                 se curar e transformar vidas com as mãos e o coração.
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex justify-center lg:justify-start">
               <a href="https://pay.kiwify.com.br/hHUz57d" target="_blank" rel="noopener noreferrer" className="btn-primary group inline-flex items-center justify-center text-white whitespace-nowrap">
                 Comprar o Curso por R$&nbsp;97
                 <Heart className="w-5 h-5 ml-2 group-hover:scale-110 transition-transform" />
@@ -37,7 +39,7 @@ const HeroSection = () => {
             </div>
 
             
-            <div className="flex items-center gap-8 pt-6">
+            <div className="flex items-center justify-center lg:justify-start gap-8 pt-6">
               <div className="text-center">
                 <div className="text-2xl font-bold text-yellow-600">R$ 97</div>
                 <div className="text-sm text-slate-600">Curso Completo</div>
@@ -56,7 +58,15 @@ const HeroSection = () => {
           
           <div className="relative animate-scale-in">
             <div className="relative">
-              <img src="/lovable-uploads/d077f26e-be8e-43ab-a990-271214ab8049.png" alt="Bonecas terapêuticas coloridas sendo criadas em círculo" className="rounded-3xl shadow-2xl w-full h-auto" />
+              <div className="rounded-3xl shadow-2xl overflow-hidden bg-black">
+                <iframe 
+                  src="https://www.youtube.com/embed/e4gVHI96YCQ" 
+                  title="Curso de Bonecas Terapêuticas"
+                  className="w-full aspect-video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
+              </div>
               <div className="absolute -top-4 -right-4 text-white px-4 py-2 rounded-full font-semibold shadow-lg bg-slate-800">
                 ✨ Vagas Limitadas
               </div>
