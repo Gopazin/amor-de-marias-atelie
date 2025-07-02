@@ -65,20 +65,12 @@ const HeroSection = () => {
             
             <div className="relative">
               <div className="rounded-3xl shadow-2xl overflow-hidden bg-black">
-                <iframe 
-                  src="https://www.youtube.com/embed/e4gVHI96YCQ" 
-                  title="Curso de Bonecas Terapêuticas"
-                  className="w-full aspect-video"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                />
+                <iframe src="https://www.youtube.com/embed/e4gVHI96YCQ" title="Curso de Bonecas Terapêuticas" className="w-full aspect-video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
               </div>
             </div>
             
             <div className="relative mt-8 bg-white p-6 rounded-2xl shadow-xl max-w-sm mx-auto">
-              <div className="absolute -top-3 -right-3 text-white px-4 py-2 rounded-full font-semibold shadow-lg bg-slate-800">
-                ✨ Vagas Limitadas
-              </div>
+              
               <div className="flex items-center gap-3">
                 <img alt="Boneca vermelha artesanal" className="w-16 h-16 rounded-full object-cover" src="/lovable-uploads/ad957365-7a42-4849-9238-19a9eb6413ae.jpg" />
                 <div>
