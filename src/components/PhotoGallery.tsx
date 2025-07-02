@@ -4,7 +4,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 const PhotoGallery = () => {
   // 15 campos de fotos - você pode editar cada src para escolher qual foto aparece
   const photoSlots = [
-    { id: 1, src: null, alt: "Foto 1" },
+    { id: 1, src: null, alt: ""C:\Users\Happy Note 1\Desktop\LP Elisandra\WhatsApp Image 2025-06-30 at 16.18.41.jpeg"" },
     { id: 2, src: null, alt: "Foto 2" },
     { id: 3, src: null, alt: "Foto 3" },
     { id: 4, src: null, alt: "Foto 4" },
