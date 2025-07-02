@@ -57,6 +57,12 @@ const HeroSection = () => {
 
           
           <div className="relative animate-scale-in">
+            <div className="text-center mb-4">
+              <p className="text-lg text-slate-700 font-medium">
+                Saiba mais sobre a Elisandra e as bonecas Waldorf
+              </p>
+            </div>
+            
             <div className="relative">
               <div className="rounded-3xl shadow-2xl overflow-hidden bg-black">
                 <iframe 
@@ -67,12 +73,12 @@ const HeroSection = () => {
                   allowFullScreen
                 />
               </div>
-              <div className="absolute -top-4 -right-4 text-white px-4 py-2 rounded-full font-semibold shadow-lg bg-slate-800">
-                ✨ Vagas Limitadas
-              </div>
             </div>
             
-            <div className="absolute -bottom-8 -left-8 bg-white p-6 rounded-2xl shadow-xl max-w-xs">
+            <div className="relative mt-8 bg-white p-6 rounded-2xl shadow-xl max-w-sm mx-auto">
+              <div className="absolute -top-3 -right-3 text-white px-4 py-2 rounded-full font-semibold shadow-lg bg-slate-800">
+                ✨ Vagas Limitadas
+              </div>
               <div className="flex items-center gap-3">
                 <img alt="Boneca vermelha artesanal" className="w-16 h-16 rounded-full object-cover" src="/lovable-uploads/ad957365-7a42-4849-9238-19a9eb6413ae.jpg" />
                 <div>
