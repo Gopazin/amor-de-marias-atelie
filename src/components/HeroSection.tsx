@@ -58,9 +58,14 @@ const HeroSection = () => {
           
           <div className="relative animate-scale-in">
             <div className="text-center mb-4">
-              <p className="text-lg text-slate-700 font-medium">
-                Saiba mais sobre a Elisandra e as bonecas Waldorf
-              </p>
+              <div className="inline-flex items-center gap-3 bg-yellow-50 px-6 py-3 rounded-full border border-yellow-200 hover:bg-yellow-100 transition-all duration-300 cursor-pointer group">
+                <div className="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+                  <div className="w-0 h-0 border-l-[6px] border-l-white border-t-[4px] border-t-transparent border-b-[4px] border-b-transparent ml-1"></div>
+                </div>
+                <p className="text-lg text-slate-700 font-medium group-hover:text-slate-800 transition-colors">
+                  Saiba mais sobre a Elisandra e as bonecas Waldorf
+                </p>
+              </div>
             </div>
             
             <div className="relative">
