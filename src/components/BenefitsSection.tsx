@@ -1,6 +1,5 @@
 import React from 'react';
 import { Heart, Users, Award, Sparkles, Gift, Clock } from 'lucide-react';
-
 const BenefitsSection = () => {
   const benefits = [{
     icon: Heart,
@@ -27,9 +26,7 @@ const BenefitsSection = () => {
     title: "Acesso Vitalício",
     description: "Tenha acesso para sempre ao conteúdo e possa revisitar sempre que precisar."
   }];
-
-  return (
-    <section className="bg-white section-padding">
+  return <section className="bg-white section-padding">
       <div className="container-custom">
         {/* Seção explicativa sobre a boneca terapêutica */}
         <div className="text-center mb-20">
@@ -59,11 +56,7 @@ const BenefitsSection = () => {
               </div>
               
               <div className="relative">
-                <img 
-                  src="/lovable-uploads/5abd3d43-ad53-4388-bad3-da22d0a6ae4d.png" 
-                  alt="Boneca de pano terapêutica artesanal" 
-                  className="rounded-2xl shadow-lg w-full h-auto"
-                />
+                <img alt="Boneca de pano terapêutica artesanal" className="rounded-2xl shadow-lg w-full h-auto" src="/lovable-uploads/9b0b4b32-e14e-42c1-ae22-7b7cba9cdb0c.jpg" />
                 <div className="absolute -top-3 -right-3 bg-yellow-400 text-slate-800 px-3 py-1 rounded-full text-sm font-semibold">
                   ❤️ Feita com amor
                 </div>
@@ -85,11 +78,7 @@ const BenefitsSection = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {benefits.map((benefit, index) => (
-            <div
-              key={index}
-              className="bg-yellow-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 hover:scale-105 border border-yellow-200"
-            >
+          {benefits.map((benefit, index) => <div key={index} className="bg-yellow-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 hover:scale-105 border border-yellow-200">
               <div className="bg-yellow-200 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
                 <benefit.icon className="w-8 h-8 text-yellow-700" />
               </div>
@@ -101,8 +90,7 @@ const BenefitsSection = () => {
               <p className="text-slate-700 leading-relaxed">
                 {benefit.description}
               </p>
-            </div>
-          ))}
+            </div>)}
         </div>
 
         <div className="text-center mt-16">
@@ -114,20 +102,13 @@ const BenefitsSection = () => {
               Descubra o poder transformador de criar algo único com suas próprias mãos,
               enquanto se conecta com sua essência mais profunda.
             </p>
-            <a
-              href="https://pay.kiwify.com.br/hHUz57d"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary text-gray-50 inline-flex items-center"
-            >
+            <a href="https://pay.kiwify.com.br/hHUz57d" target="_blank" rel="noopener noreferrer" className="btn-primary text-gray-50 inline-flex items-center">
               Começar Minha Jornada Agora
               <Heart className="w-5 h-5 ml-2" />
             </a>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default BenefitsSection;
